@@ -53,6 +53,30 @@ font-weight:bold;
 background:#ff4747;
 }
 
+/* IMAGE GALLERY */
+.gallery {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+padding: 20px;
+margin-top: 40px;
+}
+
+.gallery img {
+width: 300px;
+height: 200px;
+object-fit: cover;
+border-radius: 10px;
+border: 2px solid #222;
+transition: 0.3s;
+}
+
+.gallery img:hover {
+transform: scale(1.05);
+border-color: #ff2a2a;
+}
+
 .features{
 max-width:900px;
 margin:50px auto;
@@ -84,13 +108,17 @@ Premium Entertainment Access
 <section class="hero">
 <h1>Exclusive Premium Content</h1>
 <p>
-Discover one of the most trusted premium entertainment networks online. 
-Enjoy high-quality streaming, exclusive creators, and a secure private experience.
+Enjoy high-quality streaming, exclusive creators, and a secure private experience — all on one trusted network.
 </p>
 
-<!-- PUT YOUR AFFILIATE LINK BELOW -->
 <a class="button" href="#">Get Instant Access</a>
+</section>
 
+<!-- IMAGE SECTION -->
+<section class="gallery">
+<img src="images/pic1.jpg" alt="Attractive Preview">
+<img src="images/pic2.jpg" alt="Premium Content">
+<img src="images/pic3.jpg" alt="Exclusive Model">
 </section>
 
 <section class="features">
@@ -122,4 +150,4 @@ Enjoy high-quality streaming, exclusive creators, and a secure private experienc
 </footer>
 
 </body>
-</html>
+  </html>
